@@ -72,7 +72,7 @@ const CesiumGlobe2 = () => {
         animation={false}
         timeline={false}
         baseLayerPicker={true}
-        geocoder={false}
+        geocoder={true}
         homeButton={false}
         sceneModePicker={false}
         navigationHelpButton={false}
@@ -90,24 +90,24 @@ const CesiumGlobe2 = () => {
       />
 
       <style jsx>{`
-        .cesium-widget-credits,
-        .cesium-credit-lightbox,
-        .cesium-credit-expand-link {
-          display: none !important;
-        }
+        // .cesium-widget-credits,
+        // .cesium-credit-lightbox,
+        // .cesium-credit-expand-link {
+        //   display: none !important;
+        // }
         
         /* Target base layer picker using the container ID */
-        #cesium-container .cesium-toolbar-button:first-child,
-        #cesium-viewer .cesium-toolbar-button:first-child,
-        #cesium-container .cesium-baseLayerPicker-button,
-        #cesium-viewer .cesium-baseLayerPicker-button {
-          display: none !important;
-        }
+        // #cesium-container .cesium-toolbar-button:first-child,
+        // #cesium-viewer .cesium-toolbar-button:first-child,
+        // #cesium-container .cesium-baseLayerPicker-button,
+        // #cesium-viewer .cesium-baseLayerPicker-button {
+        //   display: none !important;
+        // }
         
-        #cesium-container .cesium-baseLayerPicker-dropDown,
-        #cesium-viewer .cesium-baseLayerPicker-dropDown {
-          display: none !important;
-        }
+        // #cesium-container .cesium-baseLayerPicker-dropDown,
+        // #cesium-viewer .cesium-baseLayerPicker-dropDown {
+        //   display: none !important;
+        // }
       `}</style>
     </div>
   );
